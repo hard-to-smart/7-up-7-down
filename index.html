@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Up 7 Down</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dice-wrapper">
+            <img  id="die-1">
+            <img  id="die-2">
+        </div>
+        <p>Place your bet:</p>
+        <div class="bet">
+            <button id="down" class="bets" onclick="selectBet('down', this)" >7 DOWN</button>
+           <button id="equal" class="bets" onclick="selectBet('equal', this)" >Equals 7</button>
+            <button id="up" class="bets" onclick="selectBet('up', this)">7 UP</button>
+        </div>
+
+        
+        <p id="total"></p>
+        <button  id="rollButton" onclick="roll()">ROLL THE DICE</button>
+        
+        <p id="result"></p>
+        <div class="confetti-container">
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <!-- Add more confetti elements as needed -->
+        </div>
+    </div>
+   
+    <!--Script-->
+    <script src="script.js"></script>
+
+</body>
+</html>

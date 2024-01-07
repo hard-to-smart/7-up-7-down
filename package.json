@@ -1,0 +1,22 @@
+{
+  "name": "dice",
+  "version": "1.0.0",
+  "description": "a 7 up 7 down game hosted on localhost via node and expressjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hard-to-smart/7up7down.git"
+  },
+  "author": "Divya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hard-to-smart/7up7down/issues"
+  },
+  "homepage": "https://github.com/hard-to-smart/7up7down#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
